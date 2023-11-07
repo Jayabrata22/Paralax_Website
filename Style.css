@@ -1,0 +1,32 @@
+html,body{
+    height: 100;
+    margin: 0;
+    font-size: 16px !important;
+    font-family:"Lato", sans-serif ;
+    font-weight: 400; 
+    line-height: 1.8em;
+    color: #666;
+}
+.png1 {
+    background-image: url(Images/image1.png);
+    min-height:100% ;
+
+}
+
+.png2{
+    background-image: url(Images/image2..png);
+    min-height:100%;
+}
+
+.png3 {
+    background-image: url(Images/image3.png);
+    min-height:100%;
+}
+
+.png1, .png2, .png3 {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
